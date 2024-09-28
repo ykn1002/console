@@ -20,7 +20,7 @@ module.exports = {
   HIDE_HELP_INFORMATION: '隐藏帮助信息',
   KUBECTL_TIP: `
     <h2><a id="KubeCtl__0"></a>命令参考</h2>
-    <p>您可以参考以下 kubectl 命令。<a href="https://kubernetes.io/zh/docs/reference/kubectl/overview/" target="_blank">了解更多</a></p>
+    <p>您可以参考以下 kubectl 命令。</p>
     <h3><a id="kubectl__3"></a>自定义输出</h3>
     <ul>
     <li>查看容器组的更多信息</li>

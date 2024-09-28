@@ -36,7 +36,7 @@ export default class ServiceComponents extends Component {
     return [
       {
         type: 'kubesphere',
-        title: 'KubeSphere',
+        title: '识因智能',
       },
       {
         type: 'kubernetes',

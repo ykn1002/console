@@ -4,7 +4,7 @@ set -ex
 set -o pipefail
 
 TAG=${TAG:-latest}
-REPO=${REPO:-kubespheredev}
+REPO=${REPO:-swr.cn-north-4.myhuaweicloud.com/registry-huawei/effyic}
 PUSH=${PUSH:-}
 
 # support other container tools. e.g. podman
