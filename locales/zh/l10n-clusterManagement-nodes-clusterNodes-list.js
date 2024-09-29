@@ -19,7 +19,7 @@ module.exports = {
   // Banner
   CLUSTER_NODE_PL: '集群节点',
   CLUSTER_NODE: '集群节点',
-  CLUSTER_NODE_DESC: '集群节点是 KubeSphere 集群中的基础服务器，您可以在此页面对集群节点进行管理。',
+  CLUSTER_NODE_DESC: '集群节点是集群中的基础服务器，您可以在此页面对集群节点进行管理。',
   NODE_TYPES_Q: '集群节点有哪些类型？',
   NODE_TYPES_A: '集群节点分为控制平面节点和工作节点。',
   WHAT_IS_NODE_TAINTS_Q: '什么是节点污点？',
