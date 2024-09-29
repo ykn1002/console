@@ -46,7 +46,7 @@ module.exports = {
   PROJECT_ROLE: '项目角色',
   SELECT_ROLE_TIP: '请选择角色。',
   ADD_PROJECT: '添加项目',
-  CLUSTER_UPGRADE_REQUIRED: '当前 KubeSphere 版本不支持此功能，请将 KubeSphere 升级到 {version} 或以上版本。',
+  CLUSTER_UPGRADE_REQUIRED: '当前版本不支持此功能，请将 KubeSphere 升级到 {version} 或以上版本。',
   // List > Set Departments > DevOps Project Role
   DEVOPS_PROJECT_ROLE: 'DevOps 项目角色',
   ADD_DEVOPS_PROJECT: '添加 DevOps 项目'

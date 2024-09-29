@@ -31,8 +31,8 @@ module.exports = {
   CONNTECT_DIRECT: '直接连接',
   CONNTECT_PROXY: '代理连接',
   INPUT_KUBECONFIG: '成员集群 kubeconfig',
-  CLUSTER_DIRECT_IMPORT_TIP: 'KubeSphere 多集群控制平面通过提供的 kubeconfig 来直接连接导入集群，此种方式要求当前集群能够通过 kubeconfig 中的 server 地址直接访问待导入集群。 </br></br>通常适用于:</br>1. 当前集群和待导入集群在同一内网网络中</br>2. 当前集群和待导入集群已通过 VPN 或隧道等其它技术连通所在网络</br>3. kubeconfig 的 server 地址可以通过公网访问',
-  CLUSTER_AGENT_IMPORT_TIP: 'KubeSphere 控制平面通过代理方式连接待导入集群，控制平面启动一个公开的代理服务，待导入集群创建相应的客户端组件连接代理服务，与控制平面之间建立一个反向代理。此种方式不需要待导入集群和控制平面在同一网络，也不要求待导入集群暴露集群的 apiserver 地址，但会有一定的网络性能损耗。</br></br>通常适用于:</br>1. 当前集群和待导入集群不在同一网络中<br/>2. 当前集群和待导入集群无法通过 VPN 或隧道等其它技术连通所在网络<br/>3. 对集群间网络性能损耗能容忍',
+  CLUSTER_DIRECT_IMPORT_TIP: '多集群控制平面通过提供的 kubeconfig 来直接连接导入集群，此种方式要求当前集群能够通过 kubeconfig 中的 server 地址直接访问待导入集群。 </br></br>通常适用于:</br>1. 当前集群和待导入集群在同一内网网络中</br>2. 当前集群和待导入集群已通过 VPN 或隧道等其它技术连通所在网络</br>3. kubeconfig 的 server 地址可以通过公网访问',
+  CLUSTER_AGENT_IMPORT_TIP: '控制平面通过代理方式连接待导入集群，控制平面启动一个公开的代理服务，待导入集群创建相应的客户端组件连接代理服务，与控制平面之间建立一个反向代理。此种方式不需要待导入集群和控制平面在同一网络，也不要求待导入集群暴露集群的 apiserver 地址，但会有一定的网络性能损耗。</br></br>通常适用于:</br>1. 当前集群和待导入集群不在同一网络中<br/>2. 当前集群和待导入集群无法通过 VPN 或隧道等其它技术连通所在网络<br/>3. 对集群间网络性能损耗能容忍',
   CLUSTER_AGENT_TITLE: '请根据集群中提供的代理连接设置加入集群',
   CLUSTER_AGENT_DESC: '需要在集群中设置下相应的代理 Agent',
   HOW_TO_GET_KUBECONFIG: '如何获取 kubeconfig?',
@@ -61,7 +61,7 @@ module.exports = {
   // List > Remove Cluster
   RISK_WARNING: '风险警告',
   REMOVE_CLUSTER_TIP_A: '集群被移除后，集群中的资源和配置信息不会被自动清除。',
-  REMOVE_CLUSTER_TIP_B: '为避免集群加入其他多集群系统时出现资源冲突，您需要参阅 <a href="https://kubesphere.io/docs/">KubeSphere 官方文档</a>手动清除集群中的配置信息。',
+  REMOVE_CLUSTER_TIP_B: '为避免集群加入其他多集群系统时出现资源冲突，您需要参阅 <a href="">官方文档</a>手动清除集群中的配置信息。',
   CLUSTER_CONFIRM_TEXT: '我了解移除集群的风险',
   ENTER_CLUSTER_NAME: '此操作不能撤消。请输入群集名称 <strong>{name}</strong> 以确认您了解此操作的风险。'
 };

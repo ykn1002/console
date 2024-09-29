@@ -22,12 +22,12 @@ module.exports = {
   // More > Set as Default Storage Class
   SET_DEFAULT_STORAGE_CLASS_TITLE: '设为默认存储类',
   SET_AS_DEFAULT_STORAGE_CLASS: '设为默认存储类',
-  STORAGE_CLASS_SET_DEFAULT_DESC: '设置为默认存储类后，如果没有特殊指定，系统将使用默认存储类创建卷。一个 KubeSphere 集群中仅允许设置一个默认存储类。',
+  STORAGE_CLASS_SET_DEFAULT_DESC: '设置为默认存储类后，如果没有特殊指定，系统将使用默认存储类创建卷。一个集群中仅允许设置一个默认存储类。',
   // More > Edit Authorization Rules
   SET_AUTHORIZATION_RULES: '设置授权规则',
   AUTHORIZATION_RULES: '授权规则',
   AUTHORIZATION_RULES_DESC: '设置授权规则使用户只能在特定项目和企业空间使用存储类。',
-  AUTHORIZATION_NOT_SUPPORT: '当前集群不支持此功能。请升级 KubeSphere 到 v3.3.0 或更高版本，或者手动安装 <a href="https://github.com/kubesphere/storageclass-accessor" target="_blank">storageclass-accessor</a>。',
+  AUTHORIZATION_NOT_SUPPORT: '当前集群不支持此功能。请升级到 v3.3.0 或更高版本，或者手动安装',
   OPERATOR_IN: '属于',
   OPERATOR_NOT_IN: '不属于',
   // More > Set Volume Permissions

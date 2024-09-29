@@ -48,7 +48,7 @@ module.exports = {
   S2I_TARGET_IMAGE_REPOSITORY_DESC: '选择一个镜像服务用于存放即将创建的镜像。如果没有可用的镜像服务，您需要先创建镜像服务保密字典。<br/><a href={link} target="_blank">了解更多</a>',
   TRIGGER_TOKEN: '触发令牌',
   INVALID_TRIGGER_TOKEN_DESC: '令牌无效。令牌只能包含大写字母、小写字母和数字。',
-  TRIGGER_TOKEN_DESC: '设置客户端通过 Webhook 触发 KubeSphere 镜像构建时所使用的认证令牌。令牌只能包含大写字母、小写字母和数字。',
+  TRIGGER_TOKEN_DESC: '设置客户端通过 Webhook 触发系统镜像构建时所使用的认证令牌。令牌只能包含大写字母、小写字母和数字。',
   CODE_RELATIVE_PATH: '代码相对路径',
   CODE_RELATIVE_PATH_DESC: '设置代码在代码仓库中的相对路径。默认值为 /。',
   S2I_ENVIRONMENT_DESC: '添加环境变量以控制镜像运行时的行为。<a href={link} target="_blank">了解更多</a>',

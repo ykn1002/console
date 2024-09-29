@@ -26,7 +26,7 @@ module.exports = {
   // List > Create > Basic Information
   SCHEDULE: '定时计划',
   ENTER_SCHEDULE_TIP: '请选择定时计划。',
-  CRONJOB_CRON_DESC: '为定时任务设置定时计划。KubeSphere 默认使用 UTC 时间, 您需要根据时区调整定时计划。<a href="//en.wikipedia.org/wiki/Cron" target="_blank">了解更多</a>',
+  CRONJOB_CRON_DESC: '为定时任务设置定时计划。默认使用 UTC 时间, 您需要根据时区调整定时计划。<a href="//en.wikipedia.org/wiki/Cron" target="_blank">了解更多</a>',
   // List > Create > Advanced settings
   MAXIMUM_DELAY: '最大启动延后时间（s）',
   SUCCESSFUL_JOBS_RETAINED: '成功任务保留数量',
