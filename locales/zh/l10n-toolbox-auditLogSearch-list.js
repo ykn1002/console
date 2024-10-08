@@ -40,5 +40,5 @@ module.exports = {
   SEARCH_BY_STATUS_CODE: '按状态码搜索',
   SEARCH_BY_OPERATOR: '按操作者搜索',
   SEARCH_BY_SOURCE_IP_ADDRESS: '按源 IP 地址搜索',
-  ENABLE_AUDIT_LOG_COLLECTION_DESC: '如果审计日志收集已禁用，您需要启用审计日志收集。 <a href="{link}" target="_blank">了解更多</a>'
+  ENABLE_AUDIT_LOG_COLLECTION_DESC: '如果审计日志收集已禁用，您需要启用审计日志收集。'
 };
