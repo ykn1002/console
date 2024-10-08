@@ -123,14 +123,14 @@ export default class Banner extends React.Component {
             <div className="h3">{title}</div>
             <p className="text-second">
               {description}
-              {docUrl && (
+              {/* {docUrl && (
                 <span className={styles.more}>
                   <Icon name="documentation" size={20} />
                   <a href={docUrl} target="_blank" rel="noreferrer noopener">
                     {t('LEARN_MORE')}
                   </a>
                 </span>
-              )}
+              )} */}
             </p>
           </div>
         </div>

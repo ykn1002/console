@@ -57,7 +57,7 @@ export default class TestSteps extends React.Component {
         <div className={styles.steps}>
           {t.html('VERSION_SUBMIT_TEST_STEPS')}
         </div>
-        <p>{t.html('APP_LEARN_MORE', { docUrl: url })}</p>
+        {/* <p>{t.html('APP_LEARN_MORE', { docUrl: url })}</p> */}
       </div>
     )
   }

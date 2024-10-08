@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Basic Information
-  EMAIL_DESC: '邮箱地址可用于登录 KubeSphere Web 控制台。',
+  EMAIL_DESC: '邮箱地址可用于登录 Web 控制台。',
   LANGUAGE: '语言',
   USER_SETTINGS: '用户设置',
   CLOSE: '关闭',
