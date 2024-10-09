@@ -42,6 +42,10 @@ class Header extends React.Component {
     this.props.jumpTo(link)
   }
 
+  handleOpenLinkClick = link => () => {
+    window.open(link)
+  }
+
   handleDocumentLinkClick = (e, key) => {
     window.open(key)
   }
@@ -115,6 +119,26 @@ class Header extends React.Component {
               })}
             >
               {t('WORKBENCH')}
+            </Button>
+            <Button
+              type="flat"
+              icon="monitor"
+              onClick={this.handleOpenLinkClick('http://117.133.58.153:30119')}
+              className={classnames({
+                [styles.active]: location.pathname === '',
+              })}
+            >
+              {t('MONITOR')}
+            </Button>
+            <Button
+              type="flat"
+              icon="database"
+              onClick={this.handleOpenLinkClick('http://117.133.58.153:30119')}
+              className={classnames({
+                [styles.active]: location.pathname === '',
+              })}
+            >
+              {t('DATABASE')}
             </Button>
           </div>
         )}
