@@ -17,7 +17,7 @@
  */
 module.exports = {
   // Navigation pane
-  MONITORING_AND_ALERTING: '监控告警',
+  MONITORING_AND_ALERTING: '监控',
   // Banner
   CLUSTER_STATUS: '集群状态',
   MONITORING_CLUSTER_DESC: '集群状态展示集群资源的概览和详情，您可以查看集群资源的监控数据和用量排行情况。',
