@@ -20,6 +20,7 @@ module.exports = {
   WORKBENCH: '工作台',
   MONITOR: 'GPU监控',
   DATABASE: '数据集',
+  MODULEHUB: '模型仓库',
   DASHBOARD_TITLE: '您好 {username}',
   LAST_LOGIN_TIME: '最后登录时间：',
   USER_DASHBOARD_EMPTY_TITLE: '您不属于任何企业空间',

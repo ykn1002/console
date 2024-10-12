@@ -140,6 +140,16 @@ class Header extends React.Component {
             >
               {t('DATABASE')}
             </Button>
+            <Button
+              type="flat"
+              icon="nodes"
+              onClick={this.handleOpenLinkClick('http://117.133.58.153:30121')}
+              className={classnames({
+                [styles.active]: location.pathname === '',
+              })}
+            >
+              {t('MODULEHUB')}
+            </Button>
           </div>
         )}
         <div className={styles.right}>
